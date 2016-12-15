@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/12/2016, 10:28:35
+    Author     : Junior
+*/
+
+body{
+    min-height: 100vh;
+    background: #CCC;
+    background-image: url('https://unsplash.it/g/1600/900/?random');
+}
+
+.login-form{
+    margin-top: 50vh;
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+    
+    transform: translateY(-50%);
+}
+
+.login-form h1{
+    margin: 0 0 5px;
+}
+
+.login-form h2{
+    margin: 0 0 30px;
+    font-size: 1em;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Minha página</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css"><link href="css/index.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <!--
+            LG: >= 1200px
+            MD: >= 992px < 1200px
+            SM: >= 768px < 992px        |   |   |   |   |   |   |   |   |   |   |   |   |
+            XS: < 768px
+        -->
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand logotipo">
+                        <img src="img/branco.png" alt="Logotipo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Pesquisa</a></li>
+                        <li><a href="abas.html">Navegaçao por Abas</a></li>
+                        <li><a href="collapse.html">Collapse</a></li>
+                        <li><a href="affix.html">Affix</a></li>
+                        <li><a href="carousel.html">Carousel</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Minha conta
+                                <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu perfil">
+                                <div class="col-sm-4 hidden-xs" >
+                                    <img class="img-responsive img-circle" src="https://api.adorable.io/avatars/100/fotousuario.png">
+                                </div>
+                                <ul class="list-unstyled col-sm-8">
+                                    <li>Fulano de Tal</li>
+                                    <li><a href="#">Alterar Perfil</a></li>
+                                    <li><a href="login.html">Sair</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <ol class="breadcrumb menucascata">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Exemplos</a></li>
+                <li class="active"><a>Collapse</a></li>
+            </ol>
+            <h1>Usando o Collapse</h1>
+
+            <div class="panel-group" id="accordion">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="label label-primary" href="#PainelUm" data-toggle="collapse" data-parent="#accordion">Painel Um</a>
+                        </h4>
+                    </div>
+                    <div class="panel-collapse collapse in" id="PainelUm">
+                        <div class="panel-body">
+                            <p>
+                                Mussum Ipsum, cacilds vidis litro abertis. Quem num gosti di mum que vai caçá sua turmis! Cevadis im ampola pa arma uma pindureta. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="label label-success" href="#PainelDois" data-toggle="collapse" data-parent="#accordion">Painel Dois</a>
+                        </h4>
+                    </div>
+                    <div class="panel-collapse collapse" id="PainelDois">
+                        <div class="panel-body">
+                            <p>
+                                Mussum Ipsum, cacilds vidis litro abertis. Quem num gosti di mum que vai caçá sua turmis! Cevadis im ampola pa arma uma pindureta. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="label label-warning" href="#PainelTres" data-toggle="collapse" data-parent="#accordion">Painel Três</a>
+                        </h4>
+                    </div>
+                    <div class="panel-collapse collapse" id="PainelTres">
+                        <div class="panel-body">
+                            <p>
+                                Mussum Ipsum, cacilds vidis litro abertis. Quem num gosti di mum que vai caçá sua turmis! Cevadis im ampola pa arma uma pindureta. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

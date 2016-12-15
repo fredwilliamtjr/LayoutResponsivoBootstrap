@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/12/2016, 13:46:01
+    Author     : Junior
+*/
+.logotipo{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.logotipo img{
+    height: 30px;
+}
+
+.perfil{
+    padding: 10px;
+    width: 300px;
+}
+
+.perfil li:first-child{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.cabecalho h1{
+    margin: 0px;
+    font-size: 3em;
+}
+
+.busca{
+    margin-top: 12px;
+}
+
+.menucascata{
+    background-color: black;
+}
+
+.menucascata a{
+    color: white;
+}
+
+.tabela{
+    margin-top: 20px;
+}
+
+.paginacao .pagination{
+    margin: 0;
+    /*text-align: right;*/
+}
+
+.ckativo{
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+    .perfil{
+        color: #fff;
+    }
+
+    .perfil a{
+        color: #9d9d9d;
+        display: block;
+        padding: 5px 0;
+    }
+
+    .perfil a:hover{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .tabela{
+        margin-top: 10px;
+    }
+
+    .paginacao {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .botaonovo{
+        text-align: center;
+    }
+
+.ckativo{
+   
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+
+}
+
